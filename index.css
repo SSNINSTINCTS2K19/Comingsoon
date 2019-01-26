@@ -486,6 +486,20 @@ p{
 .flipdown.flipdown__theme-dark .rotor-group:nth-child(n+2):nth-child(-n+3):before, .flipdown.flipdown__theme-dark .rotor-group:nth-child(n+2):nth-child(-n+3):after{
     background: white !important;
 }
+
+.mj{
+    width: 48%;
+    position: absolute;
+    top: 66%;
+    left: 15%;
+}
+.thalaivar{
+    width: 50%;
+            position: absolute;
+            top: 55%;
+            left: 48%;
+}
+
 @media(min-width:400px) and (max-width:768px){
 .filler{
     background: url("./backup.PNG");
@@ -494,11 +508,34 @@ p{
 }
 
 
-.mrbean{
-    position: absolute;    
-    width: 70%;
+.mrbean{    position: absolute;
+    width: 25%;
+    height: 45%;
     top: 54.5%;
-    left: 53%;
+    left: 80%;
+}
+
+@media(min-width:220px) and (max-width: 700px){
+   .thalaivar{ 
+       top: 53%;
+    left: 39%;
+}
+}
+@media(min-width:950px){
+.thalaivar{
+    top: 55%;
+    left: 51%;
+}
+}
+@media(min-width:300px) and (max-width: 374px ){
+.poke{
+ top:61;
+}
+}
+@media(min-width:374px) and (max-width: 768px ){
+    .poke{
+        top: 62%;
+    }
 }
 
 @media(min-width:300px) and (max-width:768px){
@@ -509,5 +546,9 @@ p{
     #flipdown{
         margin-top:1%;
         margin-left:3%;
+    }
+
+    .mj{
+        left: 6%;
     }
 }
