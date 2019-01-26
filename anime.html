@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PoKemon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="anime.css" />
+    <style>
+        html{
+            width:100%;
+            height: 100%;
+        }
+    body{
+    background: url('./sky.svg');
+    height: 100%;
+    width: 100%;
+    }
+    </style>
+</head>
+<body>
+    <img class="close" src="pokeball.svg" alt="">
+    <img class="open" src="open-pokeball.svg" alt="">
+    <img class="poke" src="Pikachu.svg" alt="">
+    <script>
+        var pika = document.querySelector(".poke");
+        setTimeout(
+         ()=> {
+                pika.classList.add("move");
+            }
+        ,4000);
+
+    </script>
+
+</body>
+</html>
