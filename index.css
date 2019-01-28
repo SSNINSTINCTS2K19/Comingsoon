@@ -1,6 +1,6 @@
 
 @font-face{
-    src: url("./Loguetown.ttf");
+    src: url("fonts/Loguetown.ttf");
     font-family: "Loguetown";
 }
 .logue{
@@ -45,7 +45,7 @@ body {
 }
 
 body {
-    background-image: url("./sky.svg");
+    background-image: url("images/svgs/sky.svg");
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
@@ -517,7 +517,7 @@ p{
 
 @media(min-width:400px) and (max-width:768px){
 .filler{
-    background: url("./backup.PNG");
+    background: url("images/pngs/backup.PNG");
     background-size: cover;
 }
 }
