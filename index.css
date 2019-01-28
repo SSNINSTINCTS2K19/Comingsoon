@@ -20,6 +20,15 @@
     top:5%;
     right:5%;
 }
+#web
+{
+    /* transform:  */
+    animation: stretch 4s;
+    position: absolute;
+            width: 10%;
+            top: 13.5%;
+            left: 184.5%
+}
 html,
 body {
     width: 100%;
@@ -368,15 +377,15 @@ p{
     /* transform:  */
     animation: stretch 4s;
     position: absolute;
-            width: 1%;
+            width: 9%;
             top: 13.5%;
-            left: 184.5%
+            left: 180.5%
 }
 
 @keyframes stretch
 {
     0%{
-        top:14%
+        top:13%
     }
     100%{
         top:27%
