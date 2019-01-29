@@ -656,12 +656,7 @@ color:white;
         -o-transform: scale(1) translate(310%,77%) ;
 }
 }
-@media(min-width:400px) and (max-width:768px){
-    .filler{
-        background: url("./backup.PNG");
-        background-size: cover;
-    }
-    }
+
     
     @media(min-width:220px) and (max-width: 700px){
         .thalaivar{ 
