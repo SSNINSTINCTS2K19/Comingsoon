@@ -7,6 +7,8 @@
 }
 
 .landing{
+
+    
     background-image: url("./images/svgs/sky.svg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -680,6 +682,9 @@ color:white;
      }
      
      @media(min-width:300px) and (max-width:768px){
+        .weber{
+            top:80px;
+        }
          .mrbean{
              top: 56%;
              left: 68%;
@@ -692,15 +697,6 @@ color:white;
          #flipdown{
              margin:0 auto;
          }
-         /* .web{ */
-             /* top: -97%; */
-             /* left: 83.5%; */
-         /* } */
-         /* .weber */
-         /* { */
-             /* top: -74%; */
-             /* left: 80.4%; */
-         /* } */
          @keyframes stretch
          {
              0%{
@@ -744,18 +740,24 @@ color:white;
              animation: bounce 1s infinite;
          }
          }
+         @media(min-width:769px) and (max-width:940px)
+         {
+            @keyframes stretch
+            {
+                0%{
+                top:35px;
+            }
+                100%{
+                top:50px;
+            }
+            }
+            .weber{
+                top:50px;
+            }
+         }
          @media(min-width:365px) and (max-width:420px)
          {
              
-             /* .web{ */
-                 /* top: -113%; */
-                 /* left: 83.5%; */
-             /* } */
-             /* .weber */
-             /* { */
-                 /* top: -90%; */
-                 /* left: 80.4%; */
-             /* } */
              @keyframes stretch
              {
                  0%{
@@ -768,16 +770,5 @@ color:white;
          
          }
     
-         @media(min-width:420px)and(max-width:767px)
-         {
-            .weber{
-                top:80px;
-            }
-         }
-         @media(min-width:640px)and(max-width:760px)
-         {
-            .weber{
-                top:100px;
-            }
-         }
+       
      
