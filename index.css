@@ -20,14 +20,44 @@
     top:5%;
     right:5%;
 }
-#web
+.explore
 {
-    /* transform:  */
-    animation: stretch 4s;
+    font-size: 40px;
     position: absolute;
-            width: 10%;
-            top: 13.5%;
-            left: 184.5%
+    top: 103%;
+    left: 0%;
+    animation: bounce 1s infinite;
+}
+
+@keyframes bounce{
+    0%{
+        }
+    20%{
+        transform: translateY(-3px);
+        }
+    40%{
+        }
+    60%{
+        transform: translateY(3px);
+        }
+    80%{
+        transform: translateY(0);
+        }
+    100%{
+        transform: rotate(xx) translateY(-3px);
+        }
+}
+
+
+#tt{
+    position: absolute;
+    top: 102%;
+    /* bottom: 0.2vh; */
+    left: -6%;
+    text-align: center;
+    opacity: 0.7;
+    letter-spacing: 4px;
+    font-weight: 420;
 }
 html,
 body {
@@ -39,7 +69,7 @@ body {
     align-self: flex-start;
     padding-top:6%;
     padding-right: 5%;
-   /* padding-left: 7%;*/
+   padding-left: 1px;
     text-align: center;
 }
 .fillerify{
@@ -256,8 +286,10 @@ p{
     backface-visibility:hidden;
     width:9%;
     animation: eat 17s;
+    opacity: 0;
     /* animation-delay: 4s; */
     -webkit-animation: eat 17s;
+    animation-delay: 5s;
     animation-timing-function:linear;
     animation-iteration-count: infinite;
     -webkit-backface-visibility:hidden;
@@ -269,6 +301,7 @@ p{
     -moz-transform: translateX(-15vw);
     -ms-transform: translateX(-15vw);
     -o-transform: translateX(-15vw);
+    opacity: 1;
 }
 
 100%{
@@ -277,6 +310,7 @@ p{
     -moz-transform: translateX(100vw);
     -ms-transform: translateX(100vw);
     -o-transform: translateX(100vw);
+    opacity: 1;
 }
 }
 /* 
@@ -384,23 +418,32 @@ p{
     -o-transform: scale(1) translate(250%,55%) ;
 }
 
-#web
+.weber
 {
-    /* transform:  */
-    animation: stretch 4s;
     position: absolute;
-            width: 9%;
-            top: 13.5%;
-            left: 180.5%
+    width: 12%;
+    top: 50px;
+    left: 78%;
+    animation: stretch 3s;
+}
+
+
+.web
+{
+    position: absolute;
+    width: 6%;
+    top: -71px  ;
+    left: 81%;
+    height: 50%;
 }
 
 @keyframes stretch
 {
     0%{
-        top:13%
+        top:50px;
     }
     100%{
-        top:27%
+        top:100px;
     }
 }
 
@@ -489,7 +532,7 @@ p{
 }
 }
 
-@media(min-width:768px)
+/* @media(min-width:768px)
 {
     .move{
         transform: scale(1) translate(310%,77%) ;
@@ -499,7 +542,7 @@ p{
         -ms-transform: scale(1) translate(310%,77%) ;
         -o-transform: scale(1) translate(310%,77%) ;
 }
-}
+} */
 .rotor{
     box-shadow:0px 0px 8px #4affff;
 }
@@ -546,7 +589,7 @@ color:white;
     left: 80%;
 }
 
-@media(min-width:220px) and (max-width: 700px){
+/* @media(min-width:220px) and (max-width: 700px){
    .thalaivar{ 
        top: 53%;
     left: 39%;
@@ -574,14 +617,155 @@ color:white;
         top: 51%;
     left: 40%;
     }
-    #flipdown{
-  
 
     .mj{
         left: 6%;
     }
-}
+} */
 
+@media(min-width:768px)
+{
+    .move{
+        transform: scale(1) translate(310%,77%) ;
+        opacity: 1;
+        -webkit-transform: scale(1) translate(310%,77%) ;
+        -moz-transform: scale(1) translate(310%,77%) ;
+        -ms-transform: scale(1) translate(310%,77%) ;
+        -o-transform: scale(1) translate(310%,77%) ;
+}
+}
+@media(min-width:400px) and (max-width:768px){
+    .filler{
+        background: url("./backup.PNG");
+        background-size: cover;
+    }
+    }
+    
+    @media(min-width:220px) and (max-width: 700px){
+        .thalaivar{ 
+            top: 53%;
+         left: 39%;
+     }
+     }
+     @media(min-width:950px){
+     .thalaivar{
+         top: 55%;
+         left: 51%;
+     }
+     }
+     @media(min-width:300px) and (max-width: 374px ){
+     .poke{
+      top:61;
+     }
+     }
+     @media(min-width:374px) and (max-width: 768px ){
+         .poke{
+             top: 62%;
+         }
+     }
+     
+     @media(min-width:300px) and (max-width:768px){
+         .mrbean{
+             top: 56%;
+             left: 68%;
+         }
+         .resize
+         {
+             width: 7%;
+             left: 84%;
+         }
+         #flipdown{
+             margin:0 auto;
+         }
+         /* .web{ */
+             /* top: -97%; */
+             /* left: 83.5%; */
+         /* } */
+         /* .weber */
+         /* { */
+             /* top: -74%; */
+             /* left: 80.4%; */
+         /* } */
+         @keyframes stretch
+         {
+             0%{
+             top:50px;
+         }
+             100%{
+             top:70px;
+         }
+         }
+     
+         .snitch{
+             width: 6%;
+         }
+         .thalaivar{
+             left: 38%;
+             top:51.5%;
+         }
+     
+         .mj{
+             left: 6%;
+             top:63%;
+         }
+         #tt{
+             position: absolute;
+             top: 102%;
+             /* bottom: 0.2vh; */
+             left: 34%;
+             text-align: center;
+             opacity: 0.7;
+             letter-spacing: 4px;
+             font-weight: 420;
+             color: black;
+         }
+         
+         .explore{
+             color: black;
+             font-size: 40px;
+             position: absolute;
+             top: 103%;
+             left: 37%;
+             animation: bounce 1s infinite;
+         }
+         }
+         @media(min-width:365px) and (max-width:420px)
+         {
+             
+             /* .web{ */
+                 /* top: -113%; */
+                 /* left: 83.5%; */
+             /* } */
+             /* .weber */
+             /* { */
+                 /* top: -90%; */
+                 /* left: 80.4%; */
+             /* } */
+             @keyframes stretch
+             {
+                 0%{
+                 top:50px;
+             }
+                 100%{
+                 top:60px;
+             }
+             }
+         
+         }
+    
+         @media(min-width:420px)and(max-width:767px)
+         {
+            .weber{
+                top:80px;
+            }
+         }
+         @media(min-width:640px)and(max-width:760px)
+         {
+            .weber{
+                top:100px;
+            }
+         }
+     
 .s-portfolio__filter-v1-item {
     font-size: 0.8125rem;
     color: #656565 !important;
