@@ -207,7 +207,7 @@ p{
     margin-left:3%;
     }
 
-@media(max-width:768px){
+@media(max-width:767px){
     .logo{
         width: 15%;
         margin-top: 5%;
