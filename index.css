@@ -683,7 +683,7 @@ color:white;
      
      @media(min-width:300px) and (max-width:768px){
         .weber{
-            top:80px;
+            top:68px;
         }
          .mrbean{
              top: 56%;
@@ -703,7 +703,7 @@ color:white;
              top:50px;
          }
              100%{
-             top:70px;
+             top:68px;
          }
          }
      
@@ -755,20 +755,7 @@ color:white;
                 top:50px;
             }
          }
-         @media(min-width:365px) and (max-width:420px)
-         {
-             
-             @keyframes stretch
-             {
-                 0%{
-                 top:50px;
-             }
-                 100%{
-                 top:60px;
-             }
-             }
-         
-         }
+        
     
        
      
