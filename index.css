@@ -684,7 +684,7 @@ color:white;
      
      @media(min-width:300px) and (max-width:768px){
         .weber{
-            top:58px;
+            top:38px;
         }
          .mrbean{
              top: 56%;
@@ -701,10 +701,10 @@ color:white;
          @keyframes stretch
          {
              0%{
-             top:40px;
+             top:30px;
          }
              100%{
-             top:58px;
+             top:38px;
          }
          }
      
